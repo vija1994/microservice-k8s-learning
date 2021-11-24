@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod3
+spec:
+  containers:
+  - name: java-custome-container
+    image: vija1994/vijay-image
+    ports:
+    - containerPort: 8080
